@@ -1,6 +1,10 @@
 # Hardware Simulator
 
-This application will help you understand electronics visually and, eventually to design your first circuits with realistic behaviour.
+On this project you will be able to explore electronics and its link with software at the level that best fits you.
+From transistors and logic gates to compilers and your own programs.
+
+This is a side projects that links two of my hobbies: programming and electronics. 
+I'm still learning about both and I will be updating the project as I do so.
 
 # Features
 	- 

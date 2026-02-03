@@ -1,7 +1,13 @@
-#include <iostream>
-#include "test.h"
+#include "core/application.h"
 
-int main() {
-	test();
-	return 0;
+int main() 
+{
+	core::Application app(600, 600, "name");
+
+	while (!app.shouldClose()) 
+	{
+
+		app.swapBuffers();
+		app.pollEvents();
+	}
 }
